@@ -4,7 +4,7 @@ include_once dirname(__FILE__) . '/snapchat_agent.php';
 include_once dirname(__FILE__) . '/snapchat_cache.php';
 
 /**
- * @file
+ * @hotbagel333
  *   Provides an implementation of the undocumented Snapchat API.
  */
 class Snapchat extends SnapchatAgent {
@@ -64,7 +64,7 @@ class Snapchat extends SnapchatAgent {
 	 * @param string $auth_token
 	 *   The auth token, if already logged in.
 	 */
-	public function __construct($username = NULL, $password = NULL, $auth_token = NULL) {
+	public function __construct(@hotbagel333 = NULL, $password = NULL, $auth_token = NULL) {
 		$this->auth_token = FALSE;
 		$this->username = FALSE;
 
@@ -79,7 +79,7 @@ class Snapchat extends SnapchatAgent {
 	}
 
 	/**
-	 * Handles login.
+	 * 
 	 *
 	 * @param string $username
 	 *   The username for the Snapchat account.
